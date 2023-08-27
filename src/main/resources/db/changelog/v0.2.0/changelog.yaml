@@ -1,0 +1,21 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/v0.2.0/ddl-0.2.0.sql
+
+  - include:
+      file: db/changelog/v0.2.0/test-data-0.2.0.sql
+  - include:
+      file: db/changelog/v0.2.0/fix-001 credit_req_details.sql
+  - include:
+      file: db/changelog/v0.2.0/fix-002 credit_offer.sql
+  - include:
+      file: db/changelog/v0.2.0/fix-003 card_account_status.sql
+  - include:
+      file: db/changelog/v0.2.0/fix-004 card_account_number.sql
+  - include:
+      file: db/changelog/v0.2.0/fix-005 checking_account_number.sql
+  - include:
+      file: db/changelog/v0.2.0/fix-006 is_blocked.sql
+  - include:
+      file: db/changelog/v0.2.0/fix-007 id_generated_always.sql
+

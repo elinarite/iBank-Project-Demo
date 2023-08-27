@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+
+        <mapping class="ru.k2.ibank.model.entity.BankData"/>
+        <mapping class="ru.k2.ibank.model.entity.BlockReason"/>
+        <mapping class="ru.k2.ibank.model.entity.CardAccountData"/>
+        <mapping class="ru.k2.ibank.model.entity.CardAccountDataLimit"/>
+        <mapping class="ru.k2.ibank.model.entity.CardAccountStatus"/>
+        <mapping class="ru.k2.ibank.model.entity.CountryData"/>
+        <mapping class="ru.k2.ibank.model.entity.CreditIssued"/>
+        <mapping class="ru.k2.ibank.model.entity.CreditOffer"/>
+        <mapping class="ru.k2.ibank.model.entity.CreditPayments"/>
+        <mapping class="ru.k2.ibank.model.entity.CreditReq"/>
+        <mapping class="ru.k2.ibank.model.entity.CreditReqDetails"/>
+        <mapping class="ru.k2.ibank.model.entity.CurrencyData"/>
+        <mapping class="ru.k2.ibank.model.entity.ExchangeRate"/>
+        <mapping class="ru.k2.ibank.model.entity.ExchangeTicker"/>
+        <mapping class="ru.k2.ibank.model.entity.IncomingTransaction"/>
+        <mapping class="ru.k2.ibank.model.entity.ManagerData"/>
+        <mapping class="ru.k2.ibank.model.entity.OutcomingTransaction"/>
+
+    </session-factory>
+</hibernate-configuration>

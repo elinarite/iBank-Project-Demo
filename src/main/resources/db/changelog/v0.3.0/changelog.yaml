@@ -1,0 +1,26 @@
+databaseChangeLog:
+# DB
+  - include:
+      file: db/changelog/v0.3.0/ddl-0.3.0.sql
+
+# Test data
+  - include:
+      file: db/changelog/v0.3.0/test-data-0.3.0.sql
+
+# Updates
+  - include:
+      file: db/changelog/v0.3.0/fix-001 comments.sql
+  - include:
+      file: db/changelog/v0.3.0/fix-002 amount_typo.sql
+  - include:
+      file: db/changelog/v0.3.0/fix-003 creditPayments_rename_payment_date.sql
+  - include:
+      file: db/changelog/v0.3.0/fix-004 transaction_timestamp_function.sql
+  - include:
+      file: db/changelog/v0.3.0/fix-005 transactions_timestamp_trigger.sql
+  - include:
+      file: db/changelog/v0.3.0/fix-006 exchangeRate_timestamp_function.sql
+  - include:
+      file: db/changelog/v0.3.0/fix-007 exchangeRate_timestamp_trigger.sql
+  - include:
+      file: db/changelog/v0.3.0/fix-008 credit_req_uniq_record_pk.sql
